@@ -48,7 +48,7 @@ public class SampleAPIController {
         if(memberTemp == null) return "wrong member number ";
         memberTemp.setId(member.getId());
         memberTemp.setName(member.getName());
-        memberRepository.flush();
+        memberRepository.flush(); // 회원정보 수정 내용 반영,
 
         return memberTemp.toString();
     }
