@@ -1,11 +1,9 @@
-## Demo Development
+# Demo Development
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
+- JPA
+- Lombok
+- MySQL
+- Springboot 
 
 1. Numbered
 2. List
